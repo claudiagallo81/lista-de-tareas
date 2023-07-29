@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(177, 156, 171);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    color: darkslategray;
+    text-align: center;
+  }
+  
+  .contenedor {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listaTareas {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  .btn-add {
+    padding: 10px 20px;
+    color: white;
+    background-color: teal;
+    font-family: fantasy;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-add:hover {
+    background-color: rgb(122, 69, 86);
+  }
+  
+  .vacio {
+    color: darkslategray;
+  }
+  
+  .btn-delete {
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-family: fantasy;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  li {
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .btn-delete:hover {
+    background-color: rgb(83, 91, 90);
+  }
+  
